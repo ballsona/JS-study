@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Let's Read</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="ball sona">
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <section class="center">
+        <div class="js-clock clock">
+            <h3 class="today_text"></h3>
+        </div>
+
+        <button class="js-bookSearch search"  onclick="location.href='search.html'">책 검색하러 가기</button>
+    </section>
+
+    <section class="middle">
+        <div class="js-count count">
+            <h3 class="count_text">당신이 읽은 책의 수는 총 0권 입니다.</h3>
+        </div>
+        
+        <form class="js-bookForm bookForm">
+            <span>📘<input class="bookTitle" type="text" placeholder="Title" /></span>
+            <span>🙋<input class="bookAuthor" type="text" placeholder="Author" /></span>
+            <textarea class="bookComment" placeholder="한줄평를 남겨주세요"></textarea>
+            <button class="btn" >입력</button>
+        </form>
+
+        <ul class="js-bookList bookList"></ul>
+
+    </section>
+
+</body>
+
+<script src="js/clock.js"></script>
+<script src="js/book.js"></script>
