@@ -1,2 +1,2 @@
-# vanilla-Js_1
-making To-do list with vanilla-js
+# [JS] Todo-list
+making Todo-list with vanilla-js
